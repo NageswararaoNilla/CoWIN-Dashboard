@@ -1,1 +1,28 @@
-/* Write your CSS here */
+.app-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.responsive-container {
+  width: 80%;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  flex-basis: auto;
+  background-color: #1c1c2b;
+  margin: 10px;
+}
